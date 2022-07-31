@@ -1,0 +1,31 @@
+{
+  "name": "type-challenges",
+  "version": "1.0.0",
+  "description": "typescript 类型体操练习",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "dimplesyj <dimplesyj@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.25.2",
+    "@type-challenges/utils": "^0.1.1",
+    "eslint": "^8.20.0"
+  },
+  "eslintConfig": {
+    "extends": "@antfu/eslint-config-ts",
+    "rules": {
+      "import/first": "off",
+      "no-unused-vars": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+      "@typescript-eslint/ban-ts-comment": "off",
+      "no-use-before-define": "off",
+      "no-unused-expressions": "off",
+      "prefer-const": "off",
+      "no-alert": "off",
+      "@typescript-eslint/consistent-type-definitions": "off"
+    }
+  }
+}
